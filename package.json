@@ -1,6 +1,7 @@
 {
   "name": "@atr-lab/coderabbit",
   "private": true,
+  "license": "MIT",
   "description": "Organization-wide CodeRabbit configuration for ATR-Lab.",
   "type": "module",
   "scripts": {

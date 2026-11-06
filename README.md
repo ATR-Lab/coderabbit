@@ -8,6 +8,7 @@
 </p>
 
 <p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-003976?style=flat-square"></a>
   <a href="https://docs.coderabbit.ai/configuration/central-configuration"><img alt="CodeRabbit: central config" src="https://img.shields.io/badge/CodeRabbit-central_config-003976?style=flat-square"></a>
   <a href="https://www.atr.cs.kent.edu/"><img alt="Advanced Telerobotics Research Laboratory, Kent State University" src="https://img.shields.io/badge/ATR_Lab-Kent_State-003976?style=flat-square"></a>
   <img alt="Last reviewed Nov. 2026" src="https://img.shields.io/badge/last_reviewed-Nov._2026-4A5868?style=flat-square">
@@ -112,11 +113,16 @@ A repo that adds its own `.coderabbit.yaml` or `.coderabbit.config.ts` replaces 
 | [`.coderabbit.config.ts`](.coderabbit.config.ts) | The central CodeRabbit config | You want to see or change what reviews do |
 | [`package.json`](package.json), [`tsconfig.json`](tsconfig.json) | The CodeRabbit config SDK and the type-check script | You change the config |
 | [`.github/assets/`](.github/assets/) | The README header and icons | You restyle this page |
+| [`LICENSE`](LICENSE) | The MIT License for this repo | You reuse the config elsewhere |
 | [`AGENTS.md`](AGENTS.md) | Instructions for coding agents (`CLAUDE.md` points to it) | You are, or you are directing, a coding agent |
 
 ## Contributing
 
 Suggest a change by [opening an issue](https://github.com/ATR-Lab/coderabbit/issues/new) or a pull request. Changes here reach every lab repo, so say why in the pull request and run the type-check first. To change what reviews hold code to, edit the guide in [dev-guidelines](https://github.com/ATR-Lab/dev-guidelines) instead.
+
+## License
+
+The configuration and docs in this repository are released under the [MIT License](LICENSE). The names and logos of the Advanced Telerobotics Research Laboratory and Kent State University are trademarks and are not covered by that license.
 
 ---
 
