@@ -1,0 +1,13 @@
+{
+  "name": "@atr-lab/coderabbit",
+  "private": true,
+  "description": "Organization-wide CodeRabbit configuration for ATR-Lab.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@coderabbitai/config": "1.1.6",
+    "typescript": "^7.0.2"
+  }
+}
